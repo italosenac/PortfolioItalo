@@ -8,36 +8,42 @@ type Imagem = {
 }
 
 const IMAGENS: Imagem[] = [
+   {
+    titulo: 'LOCALS',
+    url: 'Selecao_Construcao_Civil_Desktop.png'
+    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/LOCALS%20-%20PrototipoV1'  
+},
       {
     titulo: 'PET SHOp',
     url: 'petshop.jpeg'
-    ,link: 'https://google.com'    
+    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira/sistemaPetShop'    
 },
   {
     titulo: 'vENDaS',
     url: 'vendas.jpeg',
-    link: 'https://google.com'
+    link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'
     
 },
  
   {
     titulo: 'bIbLIOTECA',
     url: 'biblioteca.jpeg',
-    link: 'https://google.com'    
+    link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'    
 },
 
   {
     titulo: 'cLINICAS',
     url: 'clinicas.jpeg',
-    link: 'https://google.com'  
+    link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'  
 
     },
   
   {
     titulo: 'CHAT agENT',
     url: 'chatagent.jpeg'
-    ,link: 'https://google.com'  
+    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'  
 }
+ 
 ]
 
 const INTERVALO_MS = 5000
@@ -94,8 +100,10 @@ export default function Portfolio(): JSX.Element {
         <div className='headerLogoItalo'>Ítalo Rodrigues
          <div className="iconesRight">
         <div className="github">
-            <img src="src\assets\GitHub-Logos\GitHub_Logo.png" alt="Logo GitHub" />
+          <a href = "https://github.com/italosenac" className="github">
+            <img src="src\assets\GitHub-Logos\GitHub_Logo.png" alt="Logo GitHub"/>
             <img src="/src\assets\github-mark\github-mark.png" alt="Logo GitHub" />
+          </a>
         </div>
             </div>
             <div className="spinner">
@@ -137,13 +145,16 @@ export default function Portfolio(): JSX.Element {
 }
 
 const TelaInteira = styled.div`
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  font-family: 'Vostela';
-  font-size: 60px;
+position: fixed;
+inset: 0;
+width: 100vw;
+height: 100vh;
+overflow: hidden;
+font-family: 'Vostela';
+font-size: 60px;
+
+  
+  
 `
 
 const Slider = styled.div`
