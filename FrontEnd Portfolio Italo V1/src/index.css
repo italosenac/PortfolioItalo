@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Girl-Lova';
+  src: url('assets/GirlLova.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vostela';
+  src: url('assets/Vostela.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.582);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --prof: 20px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button {
+  user-select: none;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.headerLogoItalo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 15vh;
+  background-color: rgba(250, 235, 215, 0.911);
+  color: #1a1a1a;
+  font-family: 'Girl-Lova';
+  font-size: 54px;
+  font-weight:bolder;
+}
+
+.iconesRight {
+  display: flex;
+  align-items: center;
+  
+}
+
+.github {
+  display: flex;
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.github img {
+  width: 60px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  color: black;
+}
+
+.github img:hover {
+  transform: scale(1.1);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spinner 7.6s infinite ease;
+  --clr: #242322;
+  --clr-alpha: rgba(247, 197, 159, 0.12);
+}
+
+.spinner > div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--clr);
+  background-color: var(--clr-alpha);
+}
+
+.spinner div:nth-of-type(1) {
+  transform: translateZ(var(--prof));
+}
+
+.spinner div:nth-of-type(2) {
+  transform: rotateY(180deg) translateZ(var(--prof));
+}
+
+.spinner div:nth-of-type(3) {
+  transform: rotateY(90deg) translateZ(var(--prof));
+}
+
+.spinner div:nth-of-type(4) {
+  transform: rotateY(-90deg) translateZ(var(--prof));
+}
+
+.spinner div:nth-of-type(5) {
+  transform: rotateX(90deg) translateZ(var(--prof));
+}
+
+.spinner div:nth-of-type(6) {
+  transform: rotateX(-90deg) translateZ(var(--prof));
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateX(360deg) rotateY(180deg) rotateZ(90deg);
+  }
+  100% {
+    transform: rotateX(720deg) rotateY(360deg) rotateZ(180deg);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
