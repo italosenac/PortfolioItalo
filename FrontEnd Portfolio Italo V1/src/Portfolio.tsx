@@ -16,32 +16,32 @@ const IMAGENS: Imagem[] = [
       {
     titulo: 'PET SHOp',
     url: 'petshop.jpeg'
-    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira/sistemaPetShop'    
+    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/master/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira/sistemaPetShop'    
 },
   {
     titulo: 'vENDaS',
     url: 'vendas.jpeg',
-    link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'
+    link: 'https://github.com/italosenac/PortfolioItalo/tree/master/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'
     
 },
  
   {
     titulo: 'bIbLIOTECA',
     url: 'biblioteca.jpeg',
-    link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'    
+    link: 'https://github.com/italosenac/PortfolioItalo/tree/master/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'    
 },
 
   {
     titulo: 'cLINICAS',
     url: 'clinicas.jpeg',
-    link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'  
+    link: 'https://github.com/italosenac/PortfolioItalo/tree/master/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'  
 
     },
   
   {
     titulo: 'CHAT agENT',
     url: 'chatagent.jpeg'
-    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'  
+    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/master/5%20Sistemas%20-%20Avalia%C3%A7%C3%A3o%20Thalyta%20-%20Italo%20R%20Pereira'  
 }
  
 ]
