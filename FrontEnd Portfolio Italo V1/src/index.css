@@ -102,7 +102,7 @@ button {
   font-family: 'Girl-Lova';
   font-size: 48px;
   font-weight:bolder;
-  box-shadow: 2px 2px 0.5px 100vh #5f07a710, 2px 2px 0.5px 100vh rgba(187, 201, 233, 0.144);
+  box-shadow: 2px 2px 0.5px 100vh #ffffff0a, 2px 2px 0.5px 100vh rgba(37, 10, 80, 0.089);
   position:relative;z-index:10
 
 }
