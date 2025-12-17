@@ -39,6 +39,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 a {
@@ -99,9 +100,11 @@ button {
   background-color: hsla(257, 100%, 1%, 0.726);
   color: #ffffff;
   font-family: 'Girl-Lova';
-  font-size: 54px;
+  font-size: 48px;
   font-weight:bolder;
-  
+  box-shadow: 2px 2px 0.5px 100vh #5f07a710, 2px 2px 0.5px 100vh rgba(187, 201, 233, 0.144);
+  position:relative;z-index:10
+
 }
 
 .iconesRight {
@@ -118,13 +121,16 @@ button {
   justify-content: center;
   align-items: center;
   height: auto;
+  
+   
+
 }
 
 .github img {
   width: 66px;
   transition: transform 0.3s ease;
   cursor: pointer;
-  
+
 }
 
 .github img:hover {

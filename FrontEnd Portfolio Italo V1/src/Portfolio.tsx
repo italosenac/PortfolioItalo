@@ -152,7 +152,7 @@ height: 100vh;
 overflow: hidden;
 font-family: 'Vostela';
 font-size: 60px;
-
+box-shadow: 55px 55px 0px #ffffffff;
   
   
 `
@@ -206,7 +206,7 @@ const Controles = styled.div`
   left: 50%;
   transform: translateX(-50%);
   bottom: 28px;
-  display: flex;
+  display: none;  /* Aqui você oculta os botões de navegação */
   align-items: center;
   gap: 12px;
   background: rgba(0,0,0,0.18);
