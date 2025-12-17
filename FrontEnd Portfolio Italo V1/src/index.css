@@ -96,11 +96,12 @@ button {
   align-items: center;
   padding: 0 40px;
   height: 15vh;
-  background-color: rgba(250, 235, 215, 0.911);
-  color: #1a1a1a;
+  background-color: hsla(257, 100%, 1%, 0.726);
+  color: #ffffff;
   font-family: 'Girl-Lova';
   font-size: 54px;
   font-weight:bolder;
+  
 }
 
 .iconesRight {
@@ -112,18 +113,18 @@ button {
 .github {
   display: flex;
   position: absolute;
-  position: absolute;
   left: 50%;
   right: 50%;
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 
 .github img {
-  width: 60px;
+  width: 66px;
   transition: transform 0.3s ease;
   cursor: pointer;
-  color: black;
+  
 }
 
 .github img:hover {
@@ -136,8 +137,8 @@ button {
   position: relative;
   transform-style: preserve-3d;
   animation: spinner 7.6s infinite ease;
-  --clr: #242322;
-  --clr-alpha: rgba(247, 197, 159, 0.12);
+  --clr: #ffffff;
+  --clr-alpha:hsla(257, 100%, 1%, 0.726);
 }
 
 .spinner > div {

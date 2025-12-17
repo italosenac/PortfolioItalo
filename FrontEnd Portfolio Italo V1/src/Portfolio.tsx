@@ -11,7 +11,7 @@ const IMAGENS: Imagem[] = [
    {
     titulo: 'LOCALS',
     url: 'Selecao_Construcao_Civil_Desktop.png'
-    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/5d880e931cad631e9787365afd86697c68053695/LOCALS%20-%20PrototipoV1'  
+    ,link: 'https://github.com/italosenac/PortfolioItalo/tree/master/LOCALS%20-%20PrototipoV1'  
 },
       {
     titulo: 'PET SHOp',
@@ -101,8 +101,8 @@ export default function Portfolio(): JSX.Element {
          <div className="iconesRight">
         <div className="github">
           <a href = "https://github.com/italosenac" className="github">
-            <img src="src\assets\GitHub-Logos\GitHub_Logo.png" alt="Logo GitHub"/>
-            <img src="/src\assets\github-mark\github-mark.png" alt="Logo GitHub" />
+            <img src="src\assets\GitHub-Logos\GitHub_Logo_White.png" alt="Logo GitHub"/>
+            <img src="/src\assets\github-mark\github-mark-white.png" alt="Logo GitHub" />
           </a>
         </div>
             </div>
